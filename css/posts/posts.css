@@ -1,0 +1,38 @@
+.main-content_wrapper {
+    margin-top: 40px;
+}
+
+.main-content_post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content_post:nth-child(1n+2) {
+    margin-top: 35px;
+}
+
+.main-content_post-image{
+    width: 330px; 
+    height: 255px;
+}
+
+.main-content_post-content {
+    width: 330px;
+    margin-top: 15px;
+}
+
+.post-title-text {
+    text-align: left;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.post-subscribe {
+    display: flex;
+    margin-top: 20px;
+}
+
+.post-text {
+    margin-top: 20px;
+}

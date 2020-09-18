@@ -1,0 +1,51 @@
+.block-title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    color: #000000;
+}
+
+.content-title {
+    font-family: OpenSans-Bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.tags {
+    display: flex;
+    font: 14px OpenSans-Bold;
+    text-transform: uppercase;
+    color: #b59f5b;
+}
+
+.tag:nth-child(1n+2) {
+    margin-left: 20px;
+}
+
+.date {
+    font: 12px OpenSans-Regular;
+    color: #888888;
+}
+
+.author-name {
+    font: 12px OpenSans-Bold;
+    color: #000000;
+    margin-left: 15px;
+}
+
+.content-text {
+    font: 14px OpenSans-Regular;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.separator {
+    width: 330px;
+    height: 4px;
+    background-color: #eeeeee;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,6 @@
+@import './fonts.css';
+@import './normalize.css';
+@import './sistem.css';
+@import './header/header.css';
+@import './trends/trends.css';
+@import './posts/posts.css';

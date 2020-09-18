@@ -1,0 +1,88 @@
+.trends-wrapper {
+    /**/
+}
+
+.trends-title {
+
+}
+
+.trends-title-text {
+    text-align: center;
+}
+
+.underline {
+    align-self: center;
+    margin-top: 10px;
+    width: 67px;
+    height: 4px;
+    background: #b59f5b;
+}
+
+.trends-content_wrapper {
+    /**/
+}
+
+.trends-content_item {
+    padding-top: 85px;
+    padding-bottom: 15px;
+}
+
+.trends-content_item:nth-child(1n+2) {
+    margin-top: 5px;
+}
+
+.interior {
+    background: 
+        linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+        center / contain no-repeat,
+        url(./../../images/trend1.jpg)
+        center / cover no-repeat;
+}
+
+.food {
+    background: 
+        linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+        center / contain no-repeat,
+        url(./../../images/trend2.jpg)
+        center / cover no-repeat;
+}
+
+.travel {
+    background: 
+        linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+        center / contain no-repeat,
+        url(./../../images/trend3.jpg)
+        center / cover no-repeat;
+}
+
+.health {
+    background: 
+        linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+        center / contain no-repeat,
+        url(./../../images/trend4.jpg)
+        center / cover no-repeat;
+}
+
+.trends-item_content-box {
+    width: 330px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    border: 3px solid #b59f5b;
+    box-sizing: border-box;
+}
+
+.trends-item_tags-wrapper {
+    display: flex;
+    font: 14px OpenSans-Bold;
+    text-transform: uppercase;
+    color: #b59f5b;
+}
+
+.trends-item_content-signature {
+    margin-top: 15px;
+    font: 16px OpenSans-Bold;
+    text-transform: uppercase;
+    color: #ffffff;
+}

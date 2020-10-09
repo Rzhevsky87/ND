@@ -4,3 +4,9 @@
 @import './header/header.css';
 @import './trends/trends.css';
 @import './posts/posts.css';
+@import './sidebar/sidebar.css';
+@import './orders/orders.css';
+@import './footer/footer.css';
+
+@import './header/header_tablet.css';
+@import './trends/trends_tablet.css';

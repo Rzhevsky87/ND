@@ -1,0 +1,150 @@
+.sidebar-title-text {
+    text-align: center;
+}
+
+.sidebar-annoncements_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.sidebar-item {
+    display: flex;
+    width: 330px;
+    margin-left: 15px;
+}
+
+@media(min-width: 480px) {
+    .sidebar-item {
+        width: 45%;
+    }
+}
+
+.sidebar-item:nth-child(1n + 2) {
+    margin-top: 20px;
+}
+
+.sidebar-content_image {
+    width: 70px;
+    height: 70px;
+}
+
+.sidebar-content_title {
+    margin-top: 10px;
+    font: 14px OpenSans-Bold;    
+    color: #000000;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.sidebar-content_text {
+    padding-left: 20px;
+}
+
+/*===form===*/
+.sidebar-form_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+@media(min-width: 480px) {
+    .sidebar-form_wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.sidebar-form-item {
+    display: flex;
+    justify-content: center;
+}
+
+.placeholder {
+    align-self: center;
+}
+
+.search-magnifier-bg {
+    width: 48px;
+    height: 48px;
+    background:  #b59f5b url(./../../svg/search.svg) center / 65% no-repeat;
+    fill: #ffffff;
+}
+
+.mailing-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mailing-title-text {
+    text-align: center;
+}
+
+/*---tags---*/
+.sidebar-tags_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.tags-title-text {
+    text-align: center;
+}
+
+.tags-block {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+@media(min-width: 361px) {
+    .tags-block {
+        justify-content: flex-start;
+        padding-left: 5%;
+    }
+}
+
+.sidebar-tag {
+    display: flex;
+    justify-content: center;
+    padding: 10px 14px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border: 3px solid #eeeeee;
+    font: 12px OpenSans-Bold;
+    text-transform: uppercase;
+}
+
+/*---them---*/
+.sidebar-them_wrapper {
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+.them-title-text {
+    text-align: center;
+}
+
+.them-item {
+    font: 14px OpenSans-Bold;
+}
+
+.them-signature-count {
+    font: 12px OpenSans-Bold;
+    color: #b59f5b;
+    vertical-align: top;
+}
+
+.them-item {
+    margin-top: 15px;
+}
+
+.them-underline {
+    width: 330px;
+    height: 1px;
+    margin-top: 10px;
+    background: #eeeeee;
+}

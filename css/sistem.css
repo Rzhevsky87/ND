@@ -1,6 +1,11 @@
+body {
+    padding-bottom: 45px;
+}
+
 .block-title {
     display: flex;
     flex-direction: column;
+    width: 100%;
     padding-top: 40px;
     padding-bottom: 25px;
     color: #000000;
@@ -48,4 +53,29 @@
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.input-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 330px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.placeholder {
+    font: 13px OpenSans-Regular;
+    color: #888888;
+}
+
+.btn {
+    width: 330px;
+    height: 50px;
+    margin-top: 16px;
+    font: 14px OpenSans-Bold;
+    text-align: center;
+    text-transform: uppercase;
+    background: #b59f5b;
+    color: #fff;
 }

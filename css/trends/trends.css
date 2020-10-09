@@ -1,11 +1,3 @@
-.trends-wrapper {
-    /**/
-}
-
-.trends-title {
-
-}
-
 .trends-title-text {
     text-align: center;
 }
@@ -18,11 +10,9 @@
     background: #b59f5b;
 }
 
-.trends-content_wrapper {
-    /**/
-}
-
 .trends-content_item {
+    display: flex;
+    justify-content: center;
     padding-top: 85px;
     padding-bottom: 15px;
 }
@@ -65,7 +55,7 @@
 
 .trends-item_content-box {
     width: 330px;
-    margin: auto;
+    /* margin: auto; */
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 20px;
@@ -73,7 +63,7 @@
     box-sizing: border-box;
 }
 
-.trends-item_tags-wrapper {
+.trends-item_tags_wrapper {
     display: flex;
     font: 14px OpenSans-Bold;
     text-transform: uppercase;

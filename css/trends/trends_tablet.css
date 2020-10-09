@@ -1,0 +1,19 @@
+@media(min-width: 700px) and (max-width: 768px) {
+    .trends-content_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .trends-content_item {
+        width: calc(100%/2 - 2px);
+    }
+    
+    .trends-content_item:nth-child(n+2) {
+        margin-top: 0;
+    }
+
+    .trends-content_item:nth-child(n+3) {
+        margin-top: 5px;
+    }
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>mq-diplome</title>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
@@ -36,7 +37,7 @@
 		<div class="trends-content_wrapper">
 			<div class="trends-content_item interior">
 				<div class="trends-item_content-box">
-					<div class="trends-item_tags-wrapper">
+					<div class="trends-item_tags_wrapper">
 						<p class="trends-item_tag tag">lifestyle</p>
 						<p class="trends-item_tag tag">interior</p>
 					</div>
@@ -48,7 +49,7 @@
 			</div>
 			<div class="trends-content_item food">
 				<div class="trends-item_content-box">
-					<div class="trends-item_tags-wrapper">
+					<div class="trends-item_tags_wrapper">
 						<p class="trends-item_tag tag">food</p>
 					</div>
 					<p class="trends-item_content-signature">
@@ -60,7 +61,7 @@
 			</div>
 			<div class="trends-content_item travel">
 				<div class="trends-item_content-box">
-					<div class="trends-item_tags-wrapper">
+					<div class="trends-item_tags_wrapper">
 						<p class="trends-item_tag tag">lifestyle</p>
 						<p class="trends-item_tag tag">travel</p>
 					</div>
@@ -72,7 +73,7 @@
 			</div>
 			<div class="trends-content_item health">
 				<div class="trends-item_content-box">
-					<div class="trends-item_tags-wrapper">
+					<div class="trends-item_tags_wrapper">
 						<p class="trends-item_tag tag">food</p>
 						<p class="trends-item_tag tag">health</p>
 					</div>
@@ -228,7 +229,9 @@
 				</picture>
 				<div class="main-content_post-content">
 					<div class="post-tags tags">
-						<p class="post-tag tag">Music</p>
+						<p class="post-tag tag">Lifestyle</p>
+						<p class="post-tag tag">INTERIOR</p>
+						<p class="post-tag tag">art</p>
 					</div>
 					<p class="post-title-text content-title">
 						делаем модные принты на <br> 
@@ -246,9 +249,365 @@
 					</p>
 				</div>
 			</div>
+			<div class="separator"></div>
 		</div>
-		<div class="main-content_item sidebar-wrapper"></div>
-		<div class="main-content_item products-wrapper"></div>
+		<div class="main-content_item sidebar_wrapper">
+			<div class="sidebar-annoncements_wrapper">
+				<div class="news-posts-title block-title">
+					<p class="sidebar-title-text content-title">Новые посты</p>
+					<div class="underline"></div>
+				</div>
+				<div class="sidebar-item">
+					<picture>
+						<source
+							media="(min-width: 360px)"
+							srcset="./images/2.jpg"
+						>
+						<img
+							class="sidebar-content_image"
+							src="./images/2.jpg"
+							alt="travel health"
+						>
+					</picture>
+					<div class="sidebar-content_text">
+						<p class="date">14 июня 2019</p>
+						<p class="sidebar-content_title">
+							10 мест, ради которых стоит <br>
+							проснуться
+						</p>
+					</div>
+				</div>
+				<div class="sidebar-item">
+					<picture>
+						<source
+							media="(min-width: 360px)"
+							srcset="./images/151.jpg"
+						>
+						<img
+							class="sidebar-content_image"
+							src="./images/151.jpg"
+							alt="travel health"
+						>
+					</picture>
+					<div class="sidebar-content_text">
+						<p class="date">14 июня 2019</p>
+						<p class="sidebar-content_title">
+							Йога для домашних
+						</p>
+					</div>
+				</div>
+				<div class="sidebar-item">
+					<picture>
+						<source
+							media="(min-width: 360px)"
+							srcset="./images/45.jpg"
+						>
+						<img
+							class="sidebar-content_image"
+							src="./images/45.jpg"
+							alt="travel health"
+						>
+					</picture>
+					<div class="sidebar-content_text">
+						<p class="date">14 июня 2019</p>
+						<p class="sidebar-content_title">
+							как мы превратили классное <br>
+							место в балкон
+						</p>
+					</div>
+				</div>
+				<div class="sidebar-item">
+					<picture>
+						<source
+							media="(min-width: 360px)"
+							srcset="./images/501.jpg"
+						>
+						<img
+							class="sidebar-content_image"
+							src="./images/501.jpg"
+							alt="travel health"
+						>
+					</picture>
+					<div class="sidebar-content_text">
+						<p class="date">14 июня 2019</p>
+						<p class="sidebar-content_title">
+							Кулинарный подход к науке
+						</p>
+					</div>
+				</div>
+				<div class="sidebar-item">
+					<picture>
+						<source
+							media="(min-width: 360px)"
+							srcset="./images/7.jpg"
+						>
+						<img
+							class="sidebar-content_image"
+							src="./images/7.jpg"
+							alt="travel health"
+						>
+					</picture>
+					<div class="sidebar-content_text">
+						<p class="date">14 июня 2019</p>
+						<p class="sidebar-content_title">
+							лучшие прически для <br>
+							распущенных волос
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="sidebar-form_wrapper">
+				<div class="sidebar-form-item search-block">
+					<div class="input-block">
+						<input
+							type="text" 
+							id="user-search" 
+							name="user-email"
+							placeholder="Найти..."
+						>
+						<div class="search-magnifier-bg"></div>
+					</div>
+				</div>
+				<div class="sidebar-form-item mailing-block">
+					<div class="mailing-title block-title">
+						<p class="mailing-title-text content-title">Рассылка</p>
+						<div class="underline"></div>
+					</div>
+					<div class="input-block">
+						<input  
+							type="text" 
+							id="user-email" 
+							name="user-email"
+							placeholder="Ваш email-адрес"
+						>
+					</div>
+					<button class="mailing-btn btn">Подписаться</button>
+				</div>
+			</div>
+			<div class="sidebar-tags_wrapper">
+				<div class="tags-title block-title">
+					<p class="tags-title-text content-title">Теги</p>
+					<div class="underline"></div>
+				</div>
+				<div class="tags-block">
+					<a href="#">
+						<div class="sidebar-tag">
+							Fashion
+						</div>
+					</a>
+					<a href="#">
+						<div class="sidebar-tag">
+							MuSiC
+						</div>
+					</a>
+					<a href="#">
+						<div class="sidebar-tag">
+							Lifestyle
+						</div>
+					</a>
+					<a href="#">
+						<div class="sidebar-tag">
+							ART
+						</div>
+					</a>
+					<a href="#">
+						<div class="sidebar-tag">
+							Interior
+						</div>
+					</a>
+					<a href="#">
+						<div class="sidebar-tag">
+							travel
+						</div>
+					</a>
+					<a href="#">
+						<div class="sidebar-tag">
+							FOOD
+						</div>
+					</a>
+					<a href="#">
+						<div class="sidebar-tag">
+							HEALTH
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="sidebar-them_wrapper">
+				<div class="them-title block-title">
+					<p class="them-title-text content-title">Темы</p>
+					<div class="underline"></div>
+				</div>
+				<div class="them-item">
+					Красота
+					<span class="them-signature-count">12</span>
+				</div>
+				<div class="them-underline"></div>
+				<div class="them-item">
+					Здоровье
+					<span class="them-signature-count">4</span>
+				</div>
+				<div class="them-underline"></div>
+				<div class="them-item">
+					Образ жизни
+					<span class="them-signature-count">145</span>
+				</div>
+				<div class="them-underline"></div>
+				<div class="them-item">
+					Мызыка
+					<span class="them-signature-count">28</span>
+				</div>
+				<div class="them-underline"></div>
+				<div class="them-item">
+					Спорт
+					<span class="them-signature-count">62</span>
+				</div>
+				<div class="them-underline"></div>
+				<div class="them-item">
+					Йога
+					<span class="them-signature-count">8</span>
+				</div>
+				<div class="them-underline"></div>
+			</div>
+		</div>
+		<div class="main-content_item products-wrapper">
+			<div class="product-title block-title">
+				<p class="product-title-text content-title">Наши изделия</p>
+				<div class="underline"></div>
+			</div>
+			<div>
+				<div class="product" id="prod-1">
+					<div class="product-border"></div>
+					<div class="product-content">
+						<div class="product-title">Подушка на диван</div>
+						<div class="product-description">
+							Набор из двух подушек с модными принтами. Видео о создании <span class="product-akcent">здесь</span>.
+						</div>
+						<div class="product-order">
+							<div class="product-price">
+								<div class="product-cell">1000 Р</div>
+								<div class="product-final-price">800 Р</div>
+							</div>
+							<a href="#">
+								<div class="product-link">В магазин</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="product" id="prod-2">
+					<div class="product-border"></div>
+					<div class="product-content">
+						<div class="product-title">Кукла зайчик</div>
+						<div class="product-description">
+							Интерьерная рукодельная кукла "Зайчик", созданию которой посвящена <span class="product-akcent">весенняя серия постов</span> в блоге и нескольких подкастов.
+						</div>
+						<div class="product-order">
+							<div class="product-price">
+								<div class="product-cell"></div>
+								<div class="product-final-price">3500 Р</div>
+							</div>
+							<a href="#">
+								<div class="product-link">В магазин</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="product" id="prod-3">
+					<div class="product-border"></div>
+					<div class="product-content">
+						<div class="product-title">Шестиугольная рамка</div>
+						<div class="product-description">
+							Необычная рамка для украшения дома из видео <span class="product-akcent">«Как сделать рамку из подручных средств за 30 минут»</span> 
+						</div>
+						<div class="product-order">
+							<div class="product-price">
+								<div class="product-cell">500 р</div>
+								<div class="product-final-price">400 Р</div>
+							</div>
+							<a href="#">
+								<div class="product-link">В магазин</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-wrapper">
+		<svg xmlns="http://www.w3.org/2000/svg" display="none">
+			<symbol id="twitter" viewBox="0 -47 512.00203 512">
+				<g>
+					<path d="m191.011719 419.042969c-22.140625 0-44.929688-1.792969-67.855469-5.386719-40.378906-6.335938-81.253906-27.457031-92.820312-33.78125l-30.335938-16.585938 32.84375-10.800781c35.902344-11.804687 57.742188-19.128906 84.777344-30.597656-27.070313-13.109375-47.933594-36.691406-57.976563-67.175781l-7.640625-23.195313 6.265625.957031c-5.941406-5.988281-10.632812-12.066406-14.269531-17.59375-12.933594-19.644531-19.78125-43.648437-18.324219-64.21875l1.4375-20.246093 12.121094 4.695312c-5.113281-9.65625-8.808594-19.96875-10.980469-30.777343-5.292968-26.359376-.863281-54.363282 12.476563-78.851563l10.558593-19.382813 14.121094 16.960938c44.660156 53.648438 101.226563 85.472656 168.363282 94.789062-2.742188-18.902343-.6875-37.144531 6.113281-53.496093 7.917969-19.039063 22.003906-35.183594 40.722656-46.691407 20.789063-12.777343 46-18.96875 70.988281-17.433593 26.511719 1.628906 50.582032 11.5625 69.699219 28.746093 9.335937-2.425781 16.214844-5.015624 25.511719-8.515624 5.59375-2.105469 11.9375-4.496094 19.875-7.230469l29.25-10.078125-19.074219 54.476562c1.257813-.105468 2.554687-.195312 3.910156-.253906l31.234375-1.414062-18.460937 25.230468c-1.058594 1.445313-1.328125 1.855469-1.703125 2.421875-1.488282 2.242188-3.339844 5.03125-28.679688 38.867188-6.34375 8.472656-9.511718 19.507812-8.921875 31.078125 2.246094 43.96875-3.148437 83.75-16.042969 118.234375-12.195312 32.625-31.09375 60.617187-56.164062 83.199219-31.023438 27.9375-70.582031 47.066406-117.582031 56.847656-23.054688 4.796875-47.8125 7.203125-73.4375 7.203125zm0 0"/>
+				</g>
+			</symbol>
+			<symbol id="pinterest" viewBox="0 0 310.05 310.05">
+				<g>
+					<path d="M245.265,31.772C223.923,11.284,194.388,0,162.101,0c-49.32,0-79.654,20.217-96.416,37.176
+						c-20.658,20.9-32.504,48.651-32.504,76.139c0,34.513,14.436,61.003,38.611,70.858c1.623,0.665,3.256,1,4.857,1
+						c5.1,0,9.141-3.337,10.541-8.69c0.816-3.071,2.707-10.647,3.529-13.936c1.76-6.495,0.338-9.619-3.5-14.142
+						c-6.992-8.273-10.248-18.056-10.248-30.788c0-37.818,28.16-78.011,80.352-78.011c41.412,0,67.137,23.537,67.137,61.425
+						c0,23.909-5.15,46.051-14.504,62.35c-6.5,11.325-17.93,24.825-35.477,24.825c-7.588,0-14.404-3.117-18.705-8.551
+						c-4.063-5.137-5.402-11.773-3.768-18.689c1.846-7.814,4.363-15.965,6.799-23.845c4.443-14.392,8.643-27.985,8.643-38.83
+						c0-18.55-11.404-31.014-28.375-31.014c-21.568,0-38.465,21.906-38.465,49.871c0,13.715,3.645,23.973,5.295,27.912
+						c-2.717,11.512-18.865,79.953-21.928,92.859c-1.771,7.534-12.44,67.039,5.219,71.784c19.841,5.331,37.576-52.623,39.381-59.172
+						c1.463-5.326,6.582-25.465,9.719-37.845c9.578,9.226,25,15.463,40.006,15.463c28.289,0,53.73-12.73,71.637-35.843
+						c17.367-22.418,26.932-53.664,26.932-87.978C276.869,77.502,265.349,51.056,245.265,31.772z"/>
+				</g>
+			</symbol>
+			<symbol id="facebook" viewBox="0 0 96.124 96.123">
+				<g>
+					<path d="M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803
+						c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654
+						c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246
+						c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z"/>
+				</g>
+			</symbol>
+			<symbol id="instagram" viewBox="0 0 300 300">
+				<g id="XMLID_504_">
+					<path id="XMLID_505_" d="M38.52,0.012h222.978C282.682,0.012,300,17.336,300,38.52v222.978c0,21.178-17.318,38.49-38.502,38.49
+						H38.52c-21.184,0-38.52-17.313-38.52-38.49V38.52C0,17.336,17.336,0.012,38.52,0.012z M218.546,33.329
+						c-7.438,0-13.505,6.091-13.505,13.525v32.314c0,7.437,6.067,13.514,13.505,13.514h33.903c7.426,0,13.506-6.077,13.506-13.514
+						V46.854c0-7.434-6.08-13.525-13.506-13.525H218.546z M266.084,126.868h-26.396c2.503,8.175,3.86,16.796,3.86,25.759
+						c0,49.882-41.766,90.34-93.266,90.34c-51.487,0-93.254-40.458-93.254-90.34c0-8.963,1.37-17.584,3.861-25.759H33.35v126.732
+						c0,6.563,5.359,11.902,11.916,11.902h208.907c6.563,0,11.911-5.339,11.911-11.902V126.868z M150.283,90.978
+						c-33.26,0-60.24,26.128-60.24,58.388c0,32.227,26.98,58.375,60.24,58.375c33.278,0,60.259-26.148,60.259-58.375
+						C210.542,117.105,183.561,90.978,150.283,90.978z"/>
+				</g>
+			</symbol>
+			<symbol id="tumblr" viewBox="0 0 310 310">
+				<g id="XMLID_828_">
+					<path id="XMLID_829_" d="M249.775,236.928c-1.613-0.873-3.58-0.789-5.119,0.221c-14.15,9.295-28.469,14.007-42.557,14.007
+						c-7.678,0-14.285-1.725-20.236-5.297c-4.023-2.366-6.688-5.399-8.139-9.257c-1.107-2.978-2.43-10.9-2.43-31.739v-71.945h66.168
+						c2.762,0,5-2.239,5-5V80.818c0-2.762-2.238-5-5-5h-66.168V5c0-2.762-2.238-5-5-5h-42.684c-2.523,0-4.652,1.881-4.961,4.386
+						c-1.836,14.831-5.201,27.143-10.01,36.601c-4.744,9.381-11.141,17.526-19.018,24.216c-7.842,6.687-17.451,11.899-28.563,15.491
+						c-2.064,0.667-3.463,2.589-3.463,4.758v42.466c0,2.761,2.238,5,5,5h28.168v100.237c0,14.492,1.523,25.36,4.656,33.218
+						c3.158,7.955,8.83,15.496,16.863,22.418c7.922,6.801,17.568,12.104,28.67,15.758c10.971,3.618,23.73,5.452,37.922,5.452
+						c12.416,0,24.141-1.269,34.85-3.772c10.73-2.514,22.779-6.91,35.811-13.065c1.75-0.826,2.865-2.587,2.865-4.521v-47.314
+						C252.402,239.49,251.395,237.8,249.775,236.928z"/>
+				</g>
+			</symbol>
+		</svg>
+		<div class="social-wrapper">
+			<svg class="twitter footer-social-icon">
+				<use xlink:href="#twitter"></use>
+			</svg>
+			<svg class="pinterest footer-social-icon">
+				<use xlink:href="#pinterest"></use>
+			</svg>
+			<svg class="facebook footer-social-icon">
+				<use xlink:href="#facebook"></use>
+			</svg>
+		
+			<svg class="instagram footer-social-icon">
+				<use xlink:href="#instagram"></use>
+			</svg>
+		
+			<svg class="tumblr footer-social-icon">
+				<use xlink:href="#tumblr"></use>
+			</svg>
+		</div>
+		<div class="cporight-wrapper">
+			<p class="cporight-content">Copyright c 2009-2019 City Blog LLC</p>
+		</div>
 	</div>
 </body>
 </html>

@@ -1,0 +1,29 @@
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.social-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 215px;
+}
+
+.footer-social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.cporight-wrapper {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.cporight-content {
+    font: 12px OpenSans-Regular;
+    color: #888888;
+}

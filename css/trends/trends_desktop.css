@@ -1,0 +1,9 @@
+@media(min-width: 1490px) {
+    .trends-content_item {
+        width: calc(100%/4 - 2px);
+    }
+
+    .trends-content_item:nth-child(n+1) {
+        margin-top: 0;
+    }
+}

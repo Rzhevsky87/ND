@@ -1,12 +1,16 @@
 @import './fonts.css';
 @import './normalize.css';
 @import './sistem.css';
+
 @import './header/header.css';
+@import './header/header_tablet.css';
+@import './header/header_desktop.css';
+
 @import './trends/trends.css';
 @import './posts/posts.css';
 @import './sidebar/sidebar.css';
 @import './orders/orders.css';
 @import './footer/footer.css';
 
-@import './header/header_tablet.css';
 @import './trends/trends_tablet.css';
+@import './trends/trends_desktop.css';

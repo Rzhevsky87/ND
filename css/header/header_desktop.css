@@ -1,0 +1,44 @@
+@media(min-width: 1025px) {
+    .header-wrapper {
+        background: 
+            linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))
+            center / contain no-repeat, 
+            url(./../../images/banner-bg.jpg)
+            center / cover no-repeat;
+        padding-left: 14%;
+        padding-right: 14%;
+        box-sizing: border-box;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .full-menu {
+        display: flex;
+        order: 1;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        width: 50%;
+        padding-right: 15px;
+        font: 13px OpenSans-Bold;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    .super-title {
+        padding-left: 15px;
+    }
+
+    .site-title {
+        width: 75%;
+        font-size: 46px;
+    }
+}
+
+@media(min-width: 1450px) {
+    .site-title {
+        width: 60%;
+    }
+}

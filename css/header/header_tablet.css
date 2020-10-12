@@ -1,4 +1,4 @@
-@media(min-width: 768px) {
+@media(min-width: 550px) {
     .header-wrapper {
         flex-direction: row;
         flex-wrap: wrap;
@@ -14,6 +14,7 @@
     .menu {
         display: flex;
         justify-content: end;
+        align-self: center;
         width: 50%;
         margin-right: 0;
         padding-right: 20px;
@@ -30,8 +31,13 @@
         box-sizing: border-box;
     }
 
+    .logo-svg {
+        width: 170px;
+        height: 40px;
+    }
+
     .site-title {
-        width: 85%;
+        width: 70%;
         text-align: center;
         order: 3;
         margin-top: 85px;

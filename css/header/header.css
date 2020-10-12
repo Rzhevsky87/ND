@@ -1,4 +1,3 @@
-/* --- header --- */
 .header-wrapper {
     display: flex;
     flex-direction: column;
@@ -16,6 +15,10 @@
     align-self: flex-end;
     margin-right: 16px;
     fill: #ffffff;
+}
+
+.full-menu {
+    display: none;
 }
 
 .super-title {

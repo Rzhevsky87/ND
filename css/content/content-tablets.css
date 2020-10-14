@@ -1,0 +1,16 @@
+@media(min-width: 768px) {
+    .main-content_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 92%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+    }
+
+    .main-content_post-image {
+        width: 381px;
+    }
+}

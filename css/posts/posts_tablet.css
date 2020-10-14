@@ -1,0 +1,9 @@
+@media(min-width: 768px) {
+    .posts-wrapper {
+        max-width: 54%;
+    }
+
+    .news-posts-title {
+        padding-top: 0;
+    }
+}

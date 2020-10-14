@@ -7,10 +7,20 @@
 @import './header/header_desktop.css';
 
 @import './trends/trends.css';
-@import './posts/posts.css';
-@import './sidebar/sidebar.css';
-@import './orders/orders.css';
-@import './footer/footer.css';
-
 @import './trends/trends_tablet.css';
 @import './trends/trends_desktop.css';
+
+@import './content/content.css';
+@import './content/content-tablets.css';
+
+@import './posts/posts.css';
+@import './posts/posts_tablet.css';
+
+@import './sidebar/sidebar.css';
+@import './sidebar/sidebar_tablet.css';
+
+@import './products/products.css';
+@import './products/products_tablets.css';
+
+
+@import './footer/footer.css';

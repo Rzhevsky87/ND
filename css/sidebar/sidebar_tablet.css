@@ -1,0 +1,47 @@
+@media(min-width: 768px) {
+    .sidebar_wrapper {
+        width: 45%;
+    }
+
+    .sidebar_wrapper {
+        width: 39%;
+    }
+
+    .sidebar-annoncements_wrapper {
+        margin-top: 0;
+    }
+
+    .search-block {
+        width: 100%;
+    }
+
+    .sidebar-item {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .sidebar-form_wrapper {
+        align-items: flex-start;
+    }
+
+    .sidebar-form-item {
+        width: 100%;
+    }
+
+    #user-search {
+        width: 75%;
+        padding-left: 15px;
+    }
+    
+    .input-block {
+        width: 100%;
+    }
+
+    #user-email {
+        padding-left: 15px;
+    }
+
+    .mailing-btn {
+        width: 100%;
+    }
+}

@@ -65,7 +65,7 @@
     align-self: center;
 }
 
-.search-magnifier-bg {
+.search-magnifier-btn {
     width: 48px;
     height: 48px;
     background:  #b59f5b url(./../../svg/search.svg) center / 65% no-repeat;

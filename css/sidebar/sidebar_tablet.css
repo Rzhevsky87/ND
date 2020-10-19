@@ -44,4 +44,8 @@
     .mailing-btn {
         width: 100%;
     }
+
+    .tags-block {
+        padding-left: 0;
+    }
 }

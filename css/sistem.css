@@ -78,4 +78,9 @@ body {
     text-transform: uppercase;
     background: #b59f5b;
     color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #a89555;
 }

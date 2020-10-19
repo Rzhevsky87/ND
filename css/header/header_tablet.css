@@ -22,7 +22,7 @@
         box-sizing: border-box;
     }
     
-    .super-title {
+    .header-logo {
         display: flex;
         justify-content: start;
         width: 50%;

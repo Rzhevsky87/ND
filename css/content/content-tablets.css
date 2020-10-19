@@ -13,4 +13,8 @@
     .main-content_post-image {
         width: 381px;
     }
+
+    .main-content_post {
+        align-items: flex-start;
+    }
 }

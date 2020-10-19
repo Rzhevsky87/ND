@@ -12,6 +12,10 @@
     }
 
     .menu {
+        /* display: none; */
+    }
+
+    .menu-svg {
         display: none;
     }
 
@@ -21,8 +25,7 @@
         justify-content: space-between;
         align-items: center;
         box-sizing: border-box;
-        width: 39%;
-        padding-right: 15px;
+        width: 80%;
         font: 13px OpenSans-Bold;
         text-transform: uppercase;
         color: #ffffff;

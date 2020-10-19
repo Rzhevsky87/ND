@@ -22,5 +22,6 @@
 @import './products/products.css';
 @import './products/products_tablets.css';
 
-
 @import './footer/footer.css';
+
+@import './popups/popups.css';

@@ -1,17 +1,42 @@
+.curtain {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    left: 0;
+    top: 0;
+}
+
 .feedback {
-    width: 400px;
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    left: calc(50% - 200px);
+    top: 100px;
+}
+
+.is-active {
+    display: flex;
+}
+
+.close-form-icon {
+    align-self: end;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    background: url(../../svg/form-x.svg) 50% 0 / 100% no-repeat;
+}
+
+.feedback-form-wrapper {
     display: flex;
     flex-direction: column;
+    width: 400px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 50px;
     box-sizing: border-box;
-}
-
-.close-form-icon {
-    background: url(../../svg/form-x.svg) 50% 0 / 100% no-repeat;
-    width: 20px;
-    height: 20px;
+    background-color: #ffffff;
 }
 
 .feedback_input-block {
@@ -80,21 +105,17 @@
     background: url(./../../svg/form-empty-circle.svg) 50% 50% / 70% no-repeat;
 }
 
+.feedback-inp-radio-hoock:hover {
+    cursor: pointer;
+}
+
 .feedback-inp-radio-hoock:hover+div {
     background: url(./../../svg/form-circle.svg) 50% 50% / 70% no-repeat;
 }
 
 .feedback-inp-radio-hoock:focus+div {
-    background: url(./../../svg/form-circle.svg) 50% 50% / 70% no-repeat;
+    background: url(./../../svg/form-circle-active.svg) 50% 50% / 70% no-repeat;
 }
-
-/* .feedback-inp-radio:active {
-    background: url(./../../svg/form-circle.svg) 50% 50% / 70% no-repeat;
-}
-
-.feedback-inp-radio:focus {
-    background: url(./../../svg/form-circle.svg) 50% 50% / 70% no-repeat;
-} */
 
 /*-----------*/
 

@@ -615,6 +615,64 @@
 			<p class="cporight-content">Copyright c 2009-2019 City Blog LLC</p>
 		</div>
 	</footer>
-	<div class="popups"></div>
+
+	<div class="feedback">
+		<div class="close-form-icon"></div>
+		<div class="feedback-title block-title">
+			<h3 class="product-title-text content-title">Ваш фидбэк</h3>
+			<div class="underline"></div>
+		</div>
+		<form method="GET" action="#">
+			<div class="feedback_input-block">
+				<label class="feedback-lable" for="how_often">
+					Как часто вы заходите на сайт
+				</label>
+				<ul class="feedback-inp-select-list">
+					<li	class="feedback-list-item" id="feedback-list-item-1">Два раза в день</li>
+					<li	class="feedback-list-item" id="feedback-list-item-2">Почти каждый день...</li>
+					<li	class="feedback-list-item" id="feedback-list-item-3">Раз в неделю</li>
+					<li	class="feedback-list-item" id="feedback-list-item-4">Раз в квартал</li>
+				</ul>
+			</div>
+			<div class="feedback_input-block">
+				<p class="feedback-lable" for="subscription">
+					Вы подписанны на e-mail рассылку?
+				</p>
+				<div class="feedback-radio-container">
+								<input
+									class="feedback-inp-radio-hoock"
+									type="radio"
+									id="subscription-true" 
+									name="subscription"
+								>
+					<div class="feedback-inp-radio"></div>
+					<label class="feedback-radio-lable feedback-lable" for="subscription-true">Да</label>
+								<input
+								class="feedback-inp-radio-hoock"
+								type="radio"
+								id="subscription-false" 
+								name="subscription"
+								>
+					<div class="feedback-inp-radio"></div>
+					<label class="feedback-radio-lable feedback-lable" for="subscription-false">Нет</label>
+				</div>
+			</div>
+			<div class="feedback_input-block">
+				<label class="feedback-lable" for="how_content">
+					Расскажите, какой контент вы хотели бы видеть <br>
+					на нашем сайте?
+				</label>
+				<input
+					class="feedback-inp-textarea"
+					type="textarea" 
+					id="how_content" 
+					name="how_content"
+					placeholder="Может больше рецептов?"
+				>
+			</div>
+			<button class="mailing-btn feedback-btn btn">Подписаться</button>
+		</form>
+	</div>
+	
 </body>
 </html>

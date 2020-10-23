@@ -1,3 +1,110 @@
-.popups {
-    display: none
+.feedback {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.close-form-icon {
+    background: url(../../svg/form-x.svg) 50% 0 / 100% no-repeat;
+    width: 20px;
+    height: 20px;
+}
+
+.feedback_input-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.feedback_input-block:nth-child(0n+1) {
+    margin-top: 5px;
+}
+
+.feedback_input-block:nth-last-child(2) {
+    margin-bottom: 74px;
+}
+
+.feedback-lable {
+    font: 13px OpenSans-Regular;
+}
+
+.feedback-inp-select-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60px;
+    background: url(./../../svg/form-arrows.svg) 90% 50% / 3% no-repeat;
+    padding-left: 15px;
+}
+
+.feedback-list-item {
+    display: none;
+    font: 13px OpenSans-Regular;
+    color: #888888;
+}
+
+#feedback-list-item-2 {
+    display: block;
+}
+
+/*--------- radio buttons ---------*/
+
+.feedback-radio-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+    height: 25px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.feedback-inp-radio-hoock {
+    z-index: 2;
+    opacity: 0;
+    position: absolute;
+}
+
+#subscription-false {
+    left: 50px;
+}
+
+.feedback-inp-radio {
+    width: 25px;
+    height: 25px;
+    background: url(./../../svg/form-empty-circle.svg) 50% 50% / 70% no-repeat;
+}
+
+.feedback-inp-radio-hoock:hover+div {
+    background: url(./../../svg/form-circle.svg) 50% 50% / 70% no-repeat;
+}
+
+.feedback-inp-radio-hoock:focus+div {
+    background: url(./../../svg/form-circle.svg) 50% 50% / 70% no-repeat;
+}
+
+/* .feedback-inp-radio:active {
+    background: url(./../../svg/form-circle.svg) 50% 50% / 70% no-repeat;
+}
+
+.feedback-inp-radio:focus {
+    background: url(./../../svg/form-circle.svg) 50% 50% / 70% no-repeat;
+} */
+
+/*-----------*/
+
+.feedback-inp-textarea {
+    height: 60px;
+    padding-left: 15px;
+    font: 13px OpenSans-Regular;
+    color: #888888;
+}
+
+.feedback-btn {
+    /* margin-top: 90px; */
 }

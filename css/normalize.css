@@ -27,6 +27,16 @@ input[type="search"]::-webkit-search-decoration {
     box-shadow: none;
 }
 
+input {
+    border: none;
+    font: none;
+    font-family: inherit;
+}
+
+button {
+    border: none;
+}
+
 a {
     color: #000000;
     text-decoration: none;

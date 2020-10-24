@@ -13,7 +13,7 @@
     flex-direction: column;
     position: fixed;
     left: calc(50% - 200px);
-    top: 100px;
+    top: 5%;
 }
 
 .is-active {
@@ -21,7 +21,7 @@
 }
 
 .close-form-icon {
-    align-self: end;
+    align-self: flex-end;
     width: 20px;
     height: 20px;
     margin-bottom: 5px;
@@ -83,9 +83,17 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 100px;
+    width: 150px;
     height: 25px;
     margin-top: 15px;
+}
+
+.feedback-radio-input-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 37%;
     position: relative;
 }
 
@@ -96,13 +104,14 @@
 }
 
 #subscription-false {
-    left: 50px;
+    /* left: 50px; */
 }
 
 .feedback-inp-radio {
     width: 25px;
     height: 25px;
-    background: url(./../../svg/form-empty-circle.svg) 50% 50% / 70% no-repeat;
+    /* background: url(./../../svg/form-empty-circle.svg) 50% 50% / 70% no-repeat; */
+    background: url(./../../svg/form-empty-circle.svg) 50% 50% / contain no-repeat;
 }
 
 .feedback-inp-radio-hoock:hover {
@@ -110,11 +119,13 @@
 }
 
 .feedback-inp-radio-hoock:hover+div {
-    background: url(./../../svg/form-circle.svg) 50% 50% / 70% no-repeat;
+    /* background: url(./../../svg/form-circle.svg) 50% 50% / 70% no-repeat; */
+    background: url(./../../svg/form-circle.svg) 50% 50% / contain no-repeat;
 }
 
 .feedback-inp-radio-hoock:focus+div {
-    background: url(./../../svg/form-circle-active.svg) 50% 50% / 70% no-repeat;
+    /* background: url(./../../svg/form-circle-active.svg) 50% 50% / 70% no-repeat; */
+    background: url(./../../svg/form-circle-active.svg) 50% 50% / contain no-repeat;
 }
 
 /*-----------*/

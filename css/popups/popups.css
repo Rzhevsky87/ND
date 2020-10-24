@@ -28,6 +28,10 @@
     background: url(../../svg/form-x.svg) 50% 0 / 100% no-repeat;
 }
 
+.feedback-title > h3 {
+    margin-bottom: 0;
+}
+
 .feedback-form-wrapper {
     display: flex;
     flex-direction: column;
@@ -50,7 +54,7 @@
 }
 
 .feedback_input-block:nth-last-child(2) {
-    margin-bottom: 74px;
+    margin-bottom: 0;
 }
 
 .feedback-lable {
@@ -131,8 +135,9 @@
 /*-----------*/
 
 .feedback-inp-textarea {
-    height: 60px;
+    /* height: 60px; */
     padding-left: 15px;
+    margin-top: 30px;
     font: 13px OpenSans-Regular;
     color: #888888;
 }
